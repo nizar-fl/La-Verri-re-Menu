@@ -1,0 +1,99 @@
+{
+    "categories": [
+      {
+        "name": "Drinks",
+        "subcategories": [
+          {
+            "name": "Shakes & Blends",
+            "items": [
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+              {
+                "name": "Nutella",
+                "description": "",
+                "price": 12.0
+              },
+             
+             
+            ]
+          },
+          {
+            "name": "Coffee",
+            "items": [
+              {
+                "name": "Espresso",
+                "price": 3.50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Food",
+        "subcategories": [
+          {
+            "name": "Sandwiches",
+            "items": [
+              {
+                "name": "Chicken Sandwich",
+                "description": "Grilled chicken with veggies",
+                "price": 7.00,
+                "image": "/images/chicken-sandwich.jpg"
+              },
+              {
+                "name": "Veggie Sandwich",
+                "description": "Fresh vegetables with hummus",
+                "price": 6.50,
+                "image": "/images/veggie-sandwich.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Pastries",
+            "items": [
+              {
+                "name": "Croissant",
+                "description": "Freshly baked butter croissant",
+                "price": 3.50,
+                "image": "/images/croissant.jpg"
+              },
+              {
+                "name": "Chocolate Muffin",
+                "description": "Rich chocolate muffin",
+                "price": 4.00,
+                "image": "/images/chocolate-muffin.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
