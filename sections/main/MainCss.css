@@ -26,7 +26,7 @@
   }
   
   .option.active {
-    color: #e41048;
+    color: #c40034;
   }
   
   .option::after {
@@ -36,7 +36,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #e41048;
+    background-color: #c40034;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease;
@@ -47,9 +47,7 @@
     transform-origin: bottom left;
   }
   
-  .option:hover {
-    color: #e41048;
-  }
+  
   .filtersContainer{
     position: sticky;
     top: 0; /* Stick to the top of the viewport */
