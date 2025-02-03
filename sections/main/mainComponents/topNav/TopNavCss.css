@@ -9,7 +9,10 @@
 }
 .Logo{
     border-radius: 50%;
-    width: auto ;
+    /* width: 70px ;
+    height: 70px ; */
+    width: 11vh;
+    height: 11vh;
 }
 
 .LogoName > h1{
