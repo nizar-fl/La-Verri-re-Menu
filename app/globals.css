@@ -19,7 +19,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "playfair", serif;
+  font-family: "cormorant", serif;
   width: 100%;
   height: 100%;
 }
