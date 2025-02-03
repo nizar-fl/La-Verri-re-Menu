@@ -4,7 +4,7 @@ import "./TopNavCss.css";
 
 export default function TopNav() {
   return (
-    <div className="TopNavContainer">
+    <div className="TopNavContainer slideInDown">
         <Image
             className="Logo"
             src="/LaVerriereLogo.png"
@@ -13,7 +13,7 @@ export default function TopNav() {
             alt="Picture of the author"
             />
         <div className="LogoName">
-            <h1>La Verriere</h1>
+            <h1>La Verrière</h1>
             <p>Best Quality Food/Drinks</p>
         </div>
     </div>

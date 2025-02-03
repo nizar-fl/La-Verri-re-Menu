@@ -4,7 +4,6 @@
     padding-top: 2vh;
     display: flex;
     gap: 10px;
-    
     overflow-x: auto; /* Horizontal scroll for filters */
     padding-bottom: 2vh; /* Space for scrollbar */
   }
