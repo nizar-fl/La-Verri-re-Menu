@@ -1,0 +1,50 @@
+.contactandlogoicon{
+    width: 12px;
+    
+}
+
+.footerContainer{
+    width: 100%;
+    background-color: rgb(236, 236, 236) ;
+
+}
+.contactandlocation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.location{
+    display: flex;
+    height: min-content;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.contact>h1{
+    font-size: 20px;
+    color: rgb(0, 39, 71);
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.grayline{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(106, 106, 106);
+}
+.legalinfo{
+    font-size: 13px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
