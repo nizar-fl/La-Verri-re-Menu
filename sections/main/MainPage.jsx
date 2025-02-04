@@ -132,7 +132,7 @@ export default function MainPage() {
           >
             All
           </button>
-          {activeCategoryData?.subcategories.map((filter) => (
+          {activeCategoryData.subcategories? (activeCategoryData.subcategories.map((filter) => (
             <button
               key={filter}
               className={`${styles.filterButton} ${
@@ -142,12 +142,13 @@ export default function MainPage() {
             >
               {filter}
             </button>
-          ))}
+          ))):null}
         </div>
+       
       </div>
 
       {/* Display filtered items */}
-      <div className="menuItemsContainer slideInUp">
+      {/* <div className="menuItemsContainer slideInUp">
         {activeCategoryData?.secondsubcategories
           .filter((group) =>
             activeFilter === "All" || group.subcategory === activeFilter
@@ -163,8 +164,38 @@ export default function MainPage() {
               ))}
             </div>
           ))}
+      </div> */}
+    <div className="menuItemsContainer slideInUp">
+        {activeCategoryData?.secondsubcategories
+          .filter((group) =>
+            activeFilter === "All" || group.subcategory === activeFilter
+          )
+          .map((group, groupIndex) => (
+            <div key={groupIndex} className="menuGroup">
+              {group.size ? (<div className="sizingContainer"><h3 className="groupSize">{group.name} </h3><h3 className="groupSize">{group.size} </h3></div>):( <h3 className="groupTitle">{group.name} </h3>)}
+             
+              {group.items.map((item, itemIndex) => (
+                <div key={itemIndex} className="menuItem">
+                  <span className="itemName">{item.description || item.name}</span>
+                  {item.soloprice && item.duoprice ? (  
+                    <div className="itemPriceDuoSolo">
+                      <div className="soloDuo"><p className="soloDuoTitle">Solo</p><p className="itemPrice">{item.soloprice.toFixed(1)} DT</p></div>
+                      <div className="soloDuo"><p className="soloDuoTitle">Duo</p><p className="itemPrice">{item.duoprice.toFixed(1)} DT</p></div>
+                    </div>
+                  ) : item.sizeprice ? (
+                    <span className="itemPrice">
+                       {item.sizeprice} 
+                    </span>
+                  ) : item.price ? (
+                    <p className="itemPrice">{item.price.toFixed(1)} DT</p>
+                  ) : (
+                    <span className="itemPrice">Price not available</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          ))}
       </div>
-
 
     </div>
   );

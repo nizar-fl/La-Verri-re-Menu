@@ -286,6 +286,36 @@
                         }
                         
                     ]
+                },
+                {
+                    "name":"Cocktail",
+                    "subcategory":"Juices & Cocktails",
+                    "items":[
+                        {
+                            "name":"Lait de poule",
+                            "price":2.5
+                        },
+                        {
+                            "name":"Lait de poule fruits secs",
+                            "price":2.5
+                        },
+                        {
+                            "name":"Fruits de saison",
+                            "price":2.5
+                        },
+                        {
+                            "name":"Jwajem",
+                            "price":2.5
+                        }
+                        ,
+                        {
+                            "name":"Pina Colada",
+                            "price":2.5
+                        }
+                        
+                        
+                        
+                    ]
                 }
                 ,
                 
@@ -450,22 +480,24 @@
                 {
                     "name":"Tacos",
                     "subcategory":"Tacos",
+                    "size":"L/XL",
                     "items":[
                         {
                             "name":"Escalope Grillé",
-                            "price":3.0
+                            "sizeprice":"10 DT / 30 DT"
+                            
                         },
                         {
                             "name":"Escalope Pané",
-                            "price":2.5
+                            "sizeprice":"10 DT / 30 DT"
                         },
                         {
                             "name":"Cordon Blue",
-                            "price":2.5
+                            "sizeprice":"10 DT / 30 DT"
                         },
                         {
                             "name":"Taco-pizza",
-                            "price":2.5
+                            "sizeprice":"10 DT / 30 DT"
                         }
                     ]
                 }
@@ -568,210 +600,102 @@
         },
         {
             "name":"Breakfast",
-            "subcategories":["Baguette Farcie","Makloub","Tacos","Pizza","Omlette","Ciabata"],
+            "subcategories":["Classique","Sur le Pouce","Continental","Sucrée","Le Tunisien","Le sportif","Salée","Duo La Verrière"],
             "secondsubcategories":[
                 {
-                    "name":"Baguette Farcie",
-                    "subcategory":"Baguette Farcie",
+                    "name":"Classique",
+                    "subcategory":"Classique",
                     "items":[
                         {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
+                            "description":"Café, jus , viennoiserie,oeuf d viennoiserie,oeuf dur , eau 0.erie,oeuf dur , eau 0.5L",
+                            "price":null,
+                            "duoprice":30,
+                            "soloprice":15
+                            
                         }
+                       
                     ]
                 },
                 {
-                    "name":"Makloub",
-                    "subcategory":"Makloub",
+                    "name":"Sur le Pouce",
+                    "subcategory":"Sur le Pouce",
                     "items":[
                         {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
+                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
+                            "price":10  
+                            
                         }
-                    ]
-                }
-                ,
-                {
-                    "name":"Tacos",
-                    "subcategory":"Tacos",
-                    "items":[
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Taco-pizza",
-                            "price":2.5
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Pizza",
-                    "subcategory":"Pizza",
-                    "items":[
-                        {
-                            "name":"Margherita",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Végétarienne",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Pepperoni",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Neptune",
-                            "price":2.5
-                        },
-                        {
-                            "name":"La Reine",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Poulet",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Saisons",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Fromages",
-                            "price":2.5
-                        }
+                       
                     ]
                 },
                 {
-                    "name":"Ciabata",
-                    "subcategory":"Ciabata",
+                    "name":"Continental",
+                    "subcategory":"Continental",
                     "items":[
                         {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
+                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
+                            "price":10  
+                            
                         }
+                       
                     ]
                 }
                 ,
                 {
-                    "name":"Omlette",
-                    "subcategory":"Omlette",
+                    "name":"Classique",
+                    "subcategory":"Classique",
                     "items":[
                         {
-                            "name":"Fromage",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Jambon Fromage",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Végétarienne",
-                            "price":2.5
+                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
+                            "price":10  
+                            
                         }
+                       
                     ]
                 }
-                
+                ,
+                {
+                    "name":"Classique",
+                    "subcategory":"Classique",
+                    "items":[
+                        {
+                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
+                            "price":10  
+                            
+                        }
+                       
+                    ]
+                }
+                ,
+                {
+                    "name":"Classique",
+                    "subcategory":"Classique",
+                    "items":[
+                        {
+                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
+                            "price":10  
+                            
+                        }
+                       
+                    ]
+                }
+            
             ]
         },
         {
             "name":"Chicha",
-            "subcategories":["Baguette Farcie","Makloub","Tacos","Pizza","Omlette","Ciabata"],
+            
             "secondsubcategories":[
                 {
-                    "name":"Baguette Farcie",
-                    "subcategory":"Baguette Farcie",
+                    "name":"Chicha",
+                    "subcategory":"Chicha",
                     "items":[
                         {
-                            "name":"Jambon",
+                            "name":"Fakher",
                             "price":2.7
                         },
                         {
-                            "name":"Thon",
+                            "name":"Special Offre",
                             "price":3.0
                         },
                         {
@@ -792,157 +716,6 @@
                         },
                         {
                             "name":"Cheesy",
-                            "price":2.5
-                        }
-                    ]
-                },
-                {
-                    "name":"Makloub",
-                    "subcategory":"Makloub",
-                    "items":[
-                        {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Tacos",
-                    "subcategory":"Tacos",
-                    "items":[
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Taco-pizza",
-                            "price":2.5
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Pizza",
-                    "subcategory":"Pizza",
-                    "items":[
-                        {
-                            "name":"Margherita",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Végétarienne",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Pepperoni",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Neptune",
-                            "price":2.5
-                        },
-                        {
-                            "name":"La Reine",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Poulet",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Saisons",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Fromages",
-                            "price":2.5
-                        }
-                    ]
-                },
-                {
-                    "name":"Ciabata",
-                    "subcategory":"Ciabata",
-                    "items":[
-                        {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Omlette",
-                    "subcategory":"Omlette",
-                    "items":[
-                        {
-                            "name":"Fromage",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Jambon Fromage",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Végétarienne",
                             "price":2.5
                         }
                     ]

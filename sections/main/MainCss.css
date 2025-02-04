@@ -51,7 +51,7 @@
   .filtersContainer{
     position: sticky;
     top: 0; /* Stick to the top of the viewport */
-    background: white; /* Add a background to prevent content from showing through */
+    background: #f9f9f9; /* Add a background to prevent content from showing through */
     z-index: 100; /* Ensure it stays above other content */
     
   }
@@ -71,7 +71,7 @@
 
 /* Group container */
 .menuGroup {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   /* border: 1px solid #ffffff; */
   border-radius: 12px;
   padding: 16px;
@@ -97,7 +97,7 @@
   align-items: center;
   padding: 5px 10px;
   
-  border-bottom: 1px solid #ffffff;
+  
 }
 
 .menuItem:last-child {
@@ -107,15 +107,50 @@
 .itemName {
   font-size: 18px;
   font-weight: 600;
-  color: #555;
+  color: #3c3b3b;
+  max-width: 70%;
+}
+.soloDuoTitle {
+  font-size: 18px;
+  font-weight: 600;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+ 
+}
+.itemPriceDuoSolo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
 }
 
 .itemPrice {
-  font-size: 16px;
-  font-weight: bold;
-  color: #072a50;
+  font-size: 18px;
+  font-weight: 600;
+  color: #004186;
 }
-
+.groupSize{
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0a015c;
+  text-transform: capitalize;
+  margin-right: 30px;
+  padding-bottom: 8px;
+}
+.sizingContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3vh;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #f0f0f0;
+  
+}
 .slideInUp {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
