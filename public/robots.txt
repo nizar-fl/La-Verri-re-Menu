@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://Laverieremenu.com
+
+# Sitemaps
+Sitemap: https://Laverieremenu.com/sitemap.xml
