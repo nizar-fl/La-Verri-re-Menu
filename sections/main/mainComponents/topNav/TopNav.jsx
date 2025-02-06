@@ -5,6 +5,7 @@ import "./TopNavCss.css";
 export default function TopNav() {
   return (
     <div className="TopNavContainer slideInDown">
+      <a href="https://www.instagram.com/laverrierecafe/" target="_blank" rel="noreferrer">
         <Image
             className="Logo"
             src="/LaVerriereLogo.png"
@@ -12,10 +13,13 @@ export default function TopNav() {
             height={500}
             alt="Picture of the author"
             />
-        <div className="LogoName">
-            <h1>La Verrière</h1>
-            <p>Best Quality Food/Drinks</p>
-        </div>
+            </a>
+        <a href="https://www.instagram.com/laverrierecafe/" target="_blank" rel="noreferrer">    
+          <div className="LogoName">
+              <h1>La Verrière</h1>
+              <p>Best Quality Food/Drinks</p>
+          </div>
+        </a>
     </div>
   )
 }

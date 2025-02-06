@@ -157,11 +157,11 @@
         },
         {
             "name": "Food",
-            "subcategories": ["Baguette Farcie", "Makloub", "Tacos", "Pizza", "Omlette", "Ciabata", "Panini", "Salads", "Burger", "Plats"],
+            "subcategories": ["Sandwiches", "Pizza","Gauffre  & Pancake" , "Crêpe", "Plats & Pâtes",  "Salads & Omlette", "Burger & Panini","Desserts & Pastries" ,"Snacks  & Supplements"],
             "secondsubcategories": [
                 {
                     "name": "Baguette Farcie",
-                    "subcategory": "Baguette Farcie",
+                    "subcategory": "Sandwiches",
                     "items": [
                         { "name": "Jambon", "price": 10.0 },
                         { "name": "Thon", "price": 11.0 },
@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "Makloub",
-                    "subcategory": "Makloub",
+                    "subcategory": "Sandwiches",
                     "items": [
                         { "name": "Jambon", "price": 9.0 },
                         { "name": "Thon", "price": 10.0 },
@@ -187,7 +187,7 @@
                 },
                 {
                     "name": "Tacos",
-                    "subcategory": "Tacos",
+                    "subcategory": "Sandwiches",
                     "size": "L/XL",
                     "items": [
                         { "name": "Poulet Grillé", "sizeprice": "12.0 DT / 17.0 DT" },
@@ -212,19 +212,8 @@
                     ]
                 },
                 {
-                    "name": "Ciabata",
-                    "subcategory": "Ciabata",
-                    "items": [
-                        { "name": "Jambon", "price": 7.0 },
-                        { "name": "Thon", "price": 7.5 },
-                        { "name": "Escalope Grillé", "price": 8.0 },
-                        { "name": "Escalope Pané", "price": 9.0 },
-                        { "name": "Cordon Blue", "price": 9.0 }
-                    ]
-                },
-                {
                     "name": "Omlette",
-                    "subcategory": "Omlette",
+                    "subcategory": "Salads & Omlette",
                     "items": [
                         { "name": "Fromage", "price": 7.0 },
                         { "name": "Thon Fromage", "price": 9.0 },
@@ -235,7 +224,7 @@
                 },
                 {
                     "name": "Panini",
-                    "subcategory": "Panini",
+                    "subcategory": "Burger/Panini",
                     "items": [
                         { "name": "Thon Fromage", "price": 7.5 },
                         { "name": "Jambon Fromage", "price": 7.5 },
@@ -244,7 +233,7 @@
                 },
                 {
                     "name": "Salads",
-                    "subcategory": "Salads",
+                    "subcategory": "Salads & Omlette",
                     "items": [
                         { "name": "César", "price": 18.0 },
                         { "name": "Crispy", "price": 21.0 },
@@ -253,7 +242,7 @@
                 },
                 {
                     "name": "Burger",
-                    "subcategory": "Burger",
+                    "subcategory": "Burger & Panini",
                     "items": [
                         { "name": "Chicken", "price": 15.0 },
                         { "name": "Crispy", "price": 18.0 },
@@ -261,12 +250,142 @@
                     ]
                 },
                 {
-                    "name": "Plats",
-                    "subcategory": "Plats",
+                    "name": "Pâtes",
+                    "subcategory": "Plats & Pâtes",
                     "items": [
-                        { "name": "Plat du Jour", "price": 19.0 },
-                        { "name": "Crispy", "price": 18.0 },
-                        { "name": "Cheesy", "price": 22.0 }
+                        { "name": "Arrabiata", "price": 15.0 },
+                        { "name": "Puttanesca", "price": 20.0 },
+                        { "name": "Carbonara", "price": 17.0 }
+                        ,
+                        { "name": "Poulet champignon", "price": 21.0 }
+                        ,
+                        { "name": "Bolognaise", "price": 25.0 }
+                        ,
+                        { "name": "Lasagne", "price": 23.0 }
+                    ]
+                },
+                {
+                    "name": "Plats",
+                    "subcategory": "Plats & Pâtes",
+                    "items": [
+                        { "name": "Poulet Grillé", "price": 19.0 },
+                        { "name": "Poulet Pané", "price":20.0 },
+                        { "name": "Cordon Blue", "price": 22.0 }
+                        ,{ "name": "Poulet a la crème", "price": 24.0 }
+                        ,{ "name": "Crispy", "price": 25.0 }
+                        ,{ "name": "Plat protéiné", "price": 25.0 }
+                    ]
+                },
+                {
+                    "name": "Gauffre/Pancake",
+                    "subcategory": "Gauffre  & Pancake",
+                    "items": [
+                        { "name": "Chocolat", "price": 9.0 },
+                        { "name": "Nutella", "price": 11.0 },
+                        { "name": "Nutella Banane", "price": 13.0 },
+                        { "name": "Nutella fruits secs", "price": 15.0 },
+                        { "name": "Nutella Banane fruits secs", "price": 17.0 },
+                        { "name": "Nutella Oreo", "price": 14.0 },
+                        { "name": "Nutella spéculos", "price": 14.0 },
+                        { "name": "El mordjene", "price": 15.0 }
+
+                    ]
+                }
+                ,
+                {
+                    "name": "Crépes sucrées",
+                    "subcategory": "Crêpe",
+                    "items": [
+                        { "name": "Chocolat", "price": 9.0 },
+                        { "name": "Nutella", "price": 11.0 },
+                        { "name": "Nutella Banane", "price": 13.0 },
+                        { "name": "Nutella fruits secs", "price": 15.0 },
+                        { "name": "Nutella Banane fruits secs", "price": 17.0 },
+                        { "name": "Nutella Oreo", "price": 14.0 },
+                        { "name": "Nutella spéculos", "price": 14.0 },
+                        { "name": "El mordjene", "price": 15.0 }
+
+                    ]
+                }
+                ,
+                {
+                    "name": "Crépes salées",
+                    "subcategory": "Crêpe",
+                    "items": [
+                        { "name": "Thon Fromage", "price": 9.5 },
+                        { "name": "Jambon Fromage", "price": 8.5 },
+                        { "name": "Poulet Fromage", "price": 11.0 },
+                        { "name": "Poulet Fromage + sauce blanche", "price": 15.0 }
+                        
+
+                    ]
+                }
+                ,
+                {   
+                    "name": "Pastries",
+                    "subcategory": "Desserts & Pastries",
+                    "items": [
+                        { "name": "Croissant", "price": 3.0 },
+                        { "name": "Pathé", "price": 4.0},
+                        { "name": "Cake", "price": 2.5}
+                        
+                        
+
+                    ]
+                }
+                ,
+                {   
+                    "name": "Dessert",
+                    "subcategory": "Desserts & Pastries",
+                    "items": [
+                        { "name": "Cheesecake", "price": 10.0 },
+                        { "name": "Tiramisu", "price": 10.0},
+                        { "name": "Fondant", "price": 10.0 },
+                        { "name": "Gâteaux", "price": 10.0 },
+                        { "name": "Salade de fruits", "price": 10.0},
+                        { "name": "Assiette de fruits", "price": 18.0},
+                        { "name": "Deux boules de glace", "price": 12.0 }
+                        
+                        
+
+                    ]
+                }
+                ,
+                {   
+                    "name": "Snacks",
+                    "subcategory": "Snacks  & Supplements",
+                    "items": [
+                        { "name": "Nuggets", "price": 10.0 },
+                        { "name": "Fingers", "price": 10.0},
+                        { "name": "Crispy", "price": 13.0 },
+                        { "name": "Big Mix", "price": 18.0 }
+                        
+                        
+                        
+
+                    ]
+                }
+                ,
+                {   
+                    "name": "Supplements",
+                    "subcategory": "Snacks  & Supplements",
+                    "items": [
+                        { "name": "Jambon", "price": 2.5 },
+                        { "name": "Champignon", "price": 2.5},
+                        { "name": "Pepperoni", "price": 2.5 },
+                        { "name": "Mozzarella", "price": 3.0 }
+                        ,
+                        { "name": "Gruyere", "price": 3.0 }
+                        ,
+                        { "name": "Raclette", "price": 3.0 }
+                        ,
+                        { "name": "Escalope", "price": 3.0 }
+                        ,
+                        { "name": "Fritte", "price": 3.5 }
+                        
+                        
+                        
+
                     ]
                 }
             ]
@@ -279,21 +398,61 @@
                     "name": "Classique",
                     "subcategory": "Classique",
                     "items": [
-                        { "description": "Café, jusdsds, viennoiserie, oeuf dur, eau 0.5L", "price": null, "duoprice": 30, "soloprice": 15 }
+                        { "description": "Café, jus, viennoiserie, œuf dur, eau 0.5L", "price": 10 }
                     ]
                 },
                 {
                     "name": "Sur le Pouce",
                     "subcategory": "Sur le Pouce",
                     "items": [
-                        { "description": "Café, jus, viennoiserie, oeuf dur, eau 0.5L", "price": 10 }
+                        { "description": "Café, jus, viennoiserie, omelette, toast, confiture, miel, beurre, eau 0.5L", "price": 14 }
                     ]
                 },
                 {
                     "name": "Continental",
                     "subcategory": "Continental",
                     "items": [
-                        { "description": "Café, jus, viennoiserie, oeuf dur, eau 0.5L", "price": 10 }
+                        { "description": "Café, jus, viennoiserie, eau 0.5L, pancake, miel, nutella, yaourt, salade de fruit", "price": 15 }
+                    ]
+                }
+                ,
+                {
+                    "name": "Sucrée",
+                    "subcategory": "Sucrée",
+                    "items": [
+                        { "description": "Café, jus, viennoiserie, eau 0.5L, crêpe sucrée, toast, confiture, miel, beurre, yaourt", "price": 17 }
+                    ]
+                }
+                ,
+                {
+                    "name": "Le Tunisien",
+                    "subcategory": "Le Tunisien",
+                    "items": [
+                        { "description": "2 Cafés, 2 casse-croûte Hlou, eau 1L, 2 mleywi, ojja, 2 bissa, 2 œufs au choix, dattes farcies, confiture, miel", "price": null,"duoprice":19.5,"soloprice":38 }
+                    ]
+                }
+                ,
+                {
+                    "name": "Le Sportif",
+                    "subcategory": "Le Sportif",
+                    "items": [
+                        { "description": "Café, bol de granola, œuf aux choix, cocktail detox ou lait de poule, eau 0.5L", "price": 20 }
+                    ]
+                }
+                ,
+                {
+                    "name": "Salée",
+                    "subcategory": "Salée",
+                    "items": [
+                        { "description": "Café, jus, viennoiserie, eau 0.5L, œuf au choix, toast, assiette de fromage et charcuterie, croissant salé", "price": 21 }
+                    ]
+                }
+                ,
+                {
+                    "name": "Duo La Verrière",
+                    "subcategory": "Duo La Verrière",
+                    "items": [
+                        { "description": "2 Cafés, 2 jus, 2 viennoiseries, 2 yaourts, 2 mini-crêpes sucrées, toast, beurre, confiture, miel, 2 œufs au choix, 2 croissants salés, 2 salades de fruits, assiette de fromage et charcuterie, dattes farcies, eau 1L", "price":null,"soloprice":24,"duoprice":42}
                     ]
                 }
             ]
