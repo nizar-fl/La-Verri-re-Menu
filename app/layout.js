@@ -15,8 +15,8 @@ const playfair = Playfair({
 
 
 export const metadata = {
-  title: "La veriére Menu",
-  description: "La veriére Menu",
+  title: "La Verrière Menu",
+  description: "Explore La Verrière's complete menu of coffee, tea, shakes, smoothies, cocktails, and snacks. Browse through our offerings and find your favorite drinks and dishes. Perfect for anyone looking for a cozy and flavorful experience at La Verrière Lounge",
 };
 
 export default function RootLayout({ children }) {
