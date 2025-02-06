@@ -1,726 +1,319 @@
-
 {
-    "categories":[
+    "categories": [
         {
-            "name":"Drinks",
-            "subcategories":["Coffee","Tea","Hot Chocolate","Shakes & Blends","Juices & Cocktails","Smoothie","Water & Soda","Supplements"],
-            "secondsubcategories":[
+            "name": "Drinks",
+            "subcategories": ["Coffee", "Tea", "Hot Chocolate", "Shakes & Blends", "Juices & Cocktails", "Smoothie", "Water & Soda", "Supplements"],
+            "secondsubcategories": [
                 {
-                    "name":"Hot Coffee",
-                    "subcategory":"Coffee",
-                    "items":[
-                        {
-                            "name":"Express",
-                            "price":2.7
-                        },
-                        {
-                            "name":"American",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Cappucin",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Direct",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Café Turc",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Nescafe",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cappuccino",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cappuccino à la creme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"chocolat au lait",
-                            "price":2.5
-                        }
+                    "name": "Hot Coffee",
+                    "subcategory": "Coffee",
+                    "items": [
+                        { "name": "Express", "price": 2.7 },
+                        { "name": "American", "price": 3.0 },
+                        { "name": "Cappucin", "price": 3.0 },
+                        { "name": "Direct", "price": 3.4 },
+                        { "name": "Café Turc", "price": 5.0 },
+                        { "name": "Nescafe", "price": 5.0 },
+                        { "name": "Cappuccino", "price": 5.0 },
+                        { "name": "Cappuccino à la crème", "price": 7.0 },
+                        { "name": "Chocolat au lait", "price": 4.0 }
                     ]
                 },
                 {
-                    "name":"Ice Coffee",
-                    "subcategory":"Coffee",
-                    "items":[
-                        {
-                            "name":"Classique",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Noisette",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Vanille",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Caramel",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cookies vanille",
-                            "price":2.5
-                        }
+                    "name": "Ice Coffee",
+                    "subcategory": "Coffee",
+                    "items": [
+                        { "name": "Classique", "price": 8.0 },
+                        { "name": "Noisette", "price": 10.0 },
+                        { "name": "Vanille", "price": 10.0 },
+                        { "name": "Caramel", "price": 10.0 },
+                        { "name": "Cookies vanille", "price": 12.0 }
                     ]
                 },
                 {
-                    "name":"Thé",
-                    "subcategory":"Tea",
-                    "items":[
-                        {
-                            "name":"Thé à la menthe",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Thé infusion",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Thé aux amandes",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Thé aux pignon",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Thé aux fruits secs",
-                            "price":2.5
-                        }
+                    "name": "Thé",
+                    "subcategory": "Tea",
+                    "items": [
+                        { "name": "Thé à la menthe", "price": 2.5 },
+                        { "name": "Thé infusion", "price": 4.0 },
+                        { "name": "Thé aux amandes", "price": 8.0 },
+                        { "name": "Thé aux pignon", "price": 13.0 },
+                        { "name": "Thé aux fruits secs", "price": 14.0 }
                     ]
                 },
                 {
-                    "name":"Ice tea",
-                    "subcategory":"Tea",
-                    "items":[
-                        {
-                            "name":"Peche",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Framboise",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fruits rouge",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fruits de bois",
-                            "price":2.5
-                        }
+                    "name": "Ice Tea",
+                    "subcategory": "Tea",
+                    "items": [
+                        { "name": "Pêche", "price": 8.0 },
+                        { "name": "Framboise", "price": 8.0 },
+                        { "name": "Fruits rouge", "price": 8.0 },
+                        { "name": "Fruits de bois", "price": 8.0 }
                     ]
                 },
                 {
-                    "name":"Hot Chocolate",
-                    "subcategory":"Hot Chocolate",
-                    "items":[
-                        {
-                            "name":"Classique",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Nutella",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Chantilly",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fresh Chocolate",
-                            "price":2.5
-                        }
+                    "name": "Hot Chocolate",
+                    "subcategory": "Hot Chocolate",
+                    "items": [
+                        { "name": "Classique", "price": 8.0 },
+                        { "name": "Nutella", "price": 10.0 },
+                        { "name": "Chantilly", "price": 10.0 },
+                        { "name": "Fresh Chocolate", "price": 14.0 }
                     ]
                 },
                 {
-                    "name":"Milkshake",
-                    "subcategory":"Shakes & Blends",
-                    "items":[
-                        {
-                            "name":"Nutella",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Oreo",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Snickers",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Nutella oreo",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Nutella banane",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Nutella caramel",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Nutella rocher",
-                            "price":2.5
-                        }
+                    "name": "Milkshake",
+                    "subcategory": "Shakes & Blends",
+                    "items": [
+                        { "name": "Nutella", "price": 12.0 },
+                        { "name": "Oreo", "price": 12.0 },
+                        { "name": "Snickers", "price": 14.0 },
+                        { "name": "Nutella Oreo", "price": 14.0 },
+                        { "name": "Nutella Banane", "price": 15.0 },
+                        { "name": "Banane Caramel", "price": 15.0 },
+                        { "name": "Ferrero Rocher", "price": 15.0 }
                     ]
                 },
                 {
-                    "name":"Frappucino",
-                    "subcategory":"Shakes & Blends",
-                    "items":[
-                        {
-                            "name":"Aromatise",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Nutella",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Oreo",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Speculos",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Nutella Oreo",
-                            "price":2.5
-                        }
-                        
+                    "name": "Frappucino",
+                    "subcategory": "Shakes & Blends",
+                    "items": [
+                        { "name": "Aromatise", "price": 11.0 },
+                        { "name": "Nutella", "price": 13.0 },
+                        { "name": "Oreo", "price": 13.0 },
+                        { "name": "Speculos", "price": 13.0 },
+                        { "name": "Nutella Oreo", "price": 13.0 }
                     ]
                 },
-                
                 {
-                    "name":"Fresh Juice",
-                    "subcategory":"Juices & Cocktails",
-                    "items":[
-                        {
-                            "name":"Citronnade",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Citronnade aux amandes",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Orange",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fraise",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Banane",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Kiwi",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Peche",
-                            "price":2.5
-                        }
-                        
+                    "name": "Fresh Juice",
+                    "subcategory": "Juices & Cocktails",
+                    "items": [
+                        { "name": "Citronnade", "price": 8.0 },
+                        { "name": "Citronnade aux amandes", "price": 12.0 },
+                        { "name": "Orange", "price": 6.0 },
+                        { "name": "Fraise", "price": 9.0 },
+                        { "name": "Banane", "price": 10.0 },
+                        { "name": "Kiwi", "price": 8.0 },
+                        { "name": "Pêche", "price": 9.0 }
+                    ]
+                },
+                {
+                    "name": "Mojito",
+                    "subcategory": "Juices & Cocktails",
+                    "items": [
+                        { "name": "Virgin", "price": 10.0 },
+                        { "name": "Blue", "price": 12.0 },
+                        { "name": "Framboise", "price": 12.0 },
+                        { "name": "Fruits Rouge", "price": 12.0 },
+                        { "name": "Fruits de la Passion", "price": 12.0 },
+                        { "name": "Pina Colada", "price": 12.0 },
+                        { "name": "Energetique", "price": 15.0 }
+                    ]
+                },
+                {
+                    "name": "Cocktails",
+                    "subcategory": "Juices & Cocktails",
+                    "items": [
+                        { "name": "Lait de Poule", "price": 10.0 },
+                        { "name": "Lait de Poule Fruits Secs", "price": 14.0 },
+                        { "name": "Fruit de Saison", "price": 14.0 },
+                        { "name": "Jwajem", "price": 14.0 },
+                        { "name": "Pina Colada", "price": 12.0 }
+                    ]
+                },
+                {
+                    "name": "Smoothie",
+                    "subcategory": "Smoothie",
+                    "items": [
+                        { "name": "Kiwi/Banane", "price": 12.0 },
+                        { "name": "Fraise/Banane", "price": 12.0 },
+                        { "name": "Framboise/Banane", "price": 12.0 },
+                        { "name": "Fruits Rouge", "price": 12.0 },
+                        { "name": "Fruits de la Passion", "price": 12.0 },
+                        { "name": "Pina Colada", "price": 12.0 }
+                    ]
+                },
+                {
+                    "name": "Water & Soda",
+                    "subcategory": "Water & Soda",
+                    "items": [
+                        { "name": "Eau 1L", "price": 2.5 },
+                        { "name": "Eau 0.5L", "price": 1.5 },
+                        { "name": "Soda", "price": 3.5 },
+                        { "name": "Boisson Energetique", "price": 9.0 }
+                    ]
+                },
+                {
+                    "name": "Supplements",
+                    "subcategory": "Supplements",
+                    "items": [
+                        { "name": "Nestlé", "price": 3.0 },
+                        { "name": "Aromes", "price": 3.0 },
+                        { "name": "Amandes", "price": 5.0 }
                     ]
                 }
-                ,
-                
-                {
-                    "name":"Mojito",
-                    "subcategory":"Juices & Cocktails",
-                    "items":[
-                        {
-                            "name":"Virgin",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Framboise",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fruits rouge",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Fruits de la passion",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Pina Colada",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Energetique",
-                            "price":2.5
-                        }
-                        
-                    ]
-                },
-                {
-                    "name":"Cocktail",
-                    "subcategory":"Juices & Cocktails",
-                    "items":[
-                        {
-                            "name":"Lait de poule",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Lait de poule fruits secs",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fruits de saison",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Jwajem",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Pina Colada",
-                            "price":2.5
-                        }
-                        
-                        
-                        
-                    ]
-                }
-                ,
-                
-                {
-                    "name":"Smoothie",
-                    "subcategory":"Smoothie",
-                    "items":[
-                        {
-                            "name":"Kiwi/Banane",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fraise/Banane",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Framboise/Banane",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Fruits rouge",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Fruits de la passion",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Pina Colada",
-                            "price":2.5
-                        }
-                        
-                        
-                    ]
-                }
-                ,
-                
-                {
-                    "name":"Water & Soda",
-                    "subcategory":"Water & Soda",
-                    "items":[
-                        {
-                            "name":"Eau 1L",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Eau 0.5L",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Soda",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Boisson energetique",
-                            "price":2.5
-                        }
-                        
-                        
-                    ]
-                },
-                {
-                    "name":"Supplements",
-                    "subcategory":"Supplements",
-                    "items":[
-                        {
-                            "name":"Nestlé",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Aromes",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Amandes",
-                            "price":2.5
-                        }
-                        
-                        
-                    ]
-                }
-                
-               
-                
             ]
         },
         {
-            "name":"Food",
-            "subcategories":["Baguette Farcie","Makloub","Tacos","Pizza","Omlette","Ciabata"],
-            "secondsubcategories":[
+            "name": "Food",
+            "subcategories": ["Baguette Farcie", "Makloub", "Tacos", "Pizza", "Omlette", "Ciabata", "Panini", "Salads", "Burger", "Plats"],
+            "secondsubcategories": [
                 {
-                    "name":"Baguette Farcie",
-                    "subcategory":"Baguette Farcie",
-                    "items":[
-                        {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
-                        }
+                    "name": "Baguette Farcie",
+                    "subcategory": "Baguette Farcie",
+                    "items": [
+                        { "name": "Jambon", "price": 10.0 },
+                        { "name": "Thon", "price": 11.0 },
+                        { "name": "Escalope Grillé", "price": 12.0 },
+                        { "name": "Escalope Pané", "price": 13.0 },
+                        { "name": "Cordon Blue", "price": 13.0 },
+                        { "name": "À la Crème", "price": 15.0 },
+                        { "name": "Cheesy", "price": 16.0 }
                     ]
                 },
                 {
-                    "name":"Makloub",
-                    "subcategory":"Makloub",
-                    "items":[
-                        {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Tacos",
-                    "subcategory":"Tacos",
-                    "size":"L/XL",
-                    "items":[
-                        {
-                            "name":"Escalope Grillé",
-                            "sizeprice":"10 DT / 30 DT"
-                            
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "sizeprice":"10 DT / 30 DT"
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "sizeprice":"10 DT / 30 DT"
-                        },
-                        {
-                            "name":"Taco-pizza",
-                            "sizeprice":"10 DT / 30 DT"
-                        }
-                    ]
-                }
-                ,
-                {
-                    "name":"Pizza",
-                    "subcategory":"Pizza",
-                    "items":[
-                        {
-                            "name":"Margherita",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Végétarienne",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Pepperoni",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Neptune",
-                            "price":2.5
-                        },
-                        {
-                            "name":"La Reine",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Poulet",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Saisons",
-                            "price":2.5
-                        }
-                        ,
-                        {
-                            "name":"Quatre Fromages",
-                            "price":2.5
-                        }
+                    "name": "Makloub",
+                    "subcategory": "Makloub",
+                    "items": [
+                        { "name": "Jambon", "price": 9.0 },
+                        { "name": "Thon", "price": 10.0 },
+                        { "name": "Escalope Grillé", "price": 11.0 },
+                        { "name": "Escalope Pané", "price": 12.0 },
+                        { "name": "Cordon Blue", "price": 12.0 },
+                        { "name": "À la Crème", "price": 14.0 },
+                        { "name": "Cheesy", "price": 15.0 }
                     ]
                 },
                 {
-                    "name":"Ciabata",
-                    "subcategory":"Ciabata",
-                    "items":[
-                        {
-                            "name":"Jambon",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Thon",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        }
+                    "name": "Tacos",
+                    "subcategory": "Tacos",
+                    "size": "L/XL",
+                    "items": [
+                        { "name": "Poulet Grillé", "sizeprice": "12.0 DT / 17.0 DT" },
+                        { "name": "Poulet Pané", "sizeprice": "13.0 DT / 18.0 DT" },
+                        { "name": "Cordon Blue", "sizeprice": "13.0 DT / 18.0 DT" },
+                        { "name": "Taco-Pizza", "sizeprice": "15.0 DT / 20.0 DT" }
                     ]
-                }
-                ,
+                },
                 {
-                    "name":"Omlette",
-                    "subcategory":"Omlette",
-                    "items":[
-                        {
-                            "name":"Fromage",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Jambon Fromage",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Mexicaine",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Végétarienne",
-                            "price":2.5
-                        }
+                    "name": "Pizza",
+                    "subcategory": "Pizza",
+                    "items": [
+                        { "name": "Margherita", "price": 15.0 },
+                        { "name": "Végétarienne", "price": 16.0 },
+                        { "name": "Pepperoni", "price": 18.0 },
+                        { "name": "Neptune", "price": 19.0 },
+                        { "name": "La Reine", "price": 21.0 },
+                        { "name": "Poulet", "price": 20.0 },
+                        { "name": "Mexicaine", "price": 25.0 },
+                        { "name": "Quatre Saisons", "price": 25.0 },
+                        { "name": "Quatre Fromages", "price": 27.0 }
+                    ]
+                },
+                {
+                    "name": "Ciabata",
+                    "subcategory": "Ciabata",
+                    "items": [
+                        { "name": "Jambon", "price": 7.0 },
+                        { "name": "Thon", "price": 7.5 },
+                        { "name": "Escalope Grillé", "price": 8.0 },
+                        { "name": "Escalope Pané", "price": 9.0 },
+                        { "name": "Cordon Blue", "price": 9.0 }
+                    ]
+                },
+                {
+                    "name": "Omlette",
+                    "subcategory": "Omlette",
+                    "items": [
+                        { "name": "Fromage", "price": 7.0 },
+                        { "name": "Thon Fromage", "price": 9.0 },
+                        { "name": "Jambon Fromage", "price": 8.0 },
+                        { "name": "Mexicaine", "price": 14.0 },
+                        { "name": "Végétarienne", "price": 10.0 }
+                    ]
+                },
+                {
+                    "name": "Panini",
+                    "subcategory": "Panini",
+                    "items": [
+                        { "name": "Thon Fromage", "price": 7.5 },
+                        { "name": "Jambon Fromage", "price": 7.5 },
+                        { "name": "Poulet Fromage", "price": 8.5 }
+                    ]
+                },
+                {
+                    "name": "Salads",
+                    "subcategory": "Salads",
+                    "items": [
+                        { "name": "César", "price": 18.0 },
+                        { "name": "Crispy", "price": 21.0 },
+                        { "name": "Salade Caprese", "price": 17.0 }
+                    ]
+                },
+                {
+                    "name": "Burger",
+                    "subcategory": "Burger",
+                    "items": [
+                        { "name": "Chicken", "price": 15.0 },
+                        { "name": "Crispy", "price": 18.0 },
+                        { "name": "Cheesy", "price": 22.0 }
+                    ]
+                },
+                {
+                    "name": "Plats",
+                    "subcategory": "Plats",
+                    "items": [
+                        { "name": "Plat du Jour", "price": 19.0 },
+                        { "name": "Crispy", "price": 18.0 },
+                        { "name": "Cheesy", "price": 22.0 }
                     ]
                 }
-                
             ]
         },
         {
-            "name":"Breakfast",
-            "subcategories":["Classique","Sur le Pouce","Continental","Sucrée","Le Tunisien","Le sportif","Salée","Duo La Verrière"],
-            "secondsubcategories":[
+            "name": "Breakfast",
+            "subcategories": ["Classique", "Sur le Pouce", "Continental", "Sucrée", "Le Tunisien", "Le Sportif", "Salée", "Duo La Verrière"],
+            "secondsubcategories": [
                 {
-                    "name":"Classique",
-                    "subcategory":"Classique",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf d viennoiserie,oeuf dur , eau 0.erie,oeuf dur , eau 0.5L",
-                            "price":null,
-                            "duoprice":30,
-                            "soloprice":15
-                            
-                        }
-                       
+                    "name": "Classique",
+                    "subcategory": "Classique",
+                    "items": [
+                        { "description": "Café, jus, viennoiserie, oeuf dur, eau 0.5L", "price": null, "duoprice": 30, "soloprice": 15 }
                     ]
                 },
                 {
-                    "name":"Sur le Pouce",
-                    "subcategory":"Sur le Pouce",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
-                            "price":10  
-                            
-                        }
-                       
+                    "name": "Sur le Pouce",
+                    "subcategory": "Sur le Pouce",
+                    "items": [
+                        { "description": "Café, jus, viennoiserie, oeuf dur, eau 0.5L", "price": 10 }
                     ]
                 },
                 {
-                    "name":"Continental",
-                    "subcategory":"Continental",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
-                            "price":10  
-                            
-                        }
-                       
+                    "name": "Continental",
+                    "subcategory": "Continental",
+                    "items": [
+                        { "description": "Café, jus, viennoiserie, oeuf dur, eau 0.5L", "price": 10 }
                     ]
                 }
-                ,
-                {
-                    "name":"Classique",
-                    "subcategory":"Classique",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
-                            "price":10  
-                            
-                        }
-                       
-                    ]
-                }
-                ,
-                {
-                    "name":"Classique",
-                    "subcategory":"Classique",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
-                            "price":10  
-                            
-                        }
-                       
-                    ]
-                }
-                ,
-                {
-                    "name":"Classique",
-                    "subcategory":"Classique",
-                    "items":[
-                        {
-                            "description":"Café, jus , viennoiserie,oeuf dur , eau 0.5L",
-                            "price":10  
-                            
-                        }
-                       
-                    ]
-                }
-            
             ]
         },
         {
-            "name":"Chicha",
-            
-            "secondsubcategories":[
+            "name": "Chicha",
+            "subcategories": [],
+            "secondsubcategories": [
                 {
-                    "name":"Chicha",
-                    "subcategory":"Chicha",
-                    "items":[
-                        {
-                            "name":"Fakher",
-                            "price":2.7
-                        },
-                        {
-                            "name":"Special Offre",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Grillé",
-                            "price":3.0
-                        },
-                        {
-                            "name":"Escalope Pané",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cordon Blue",
-                            "price":2.5
-                        },
-                        {
-                            "name":"A la créme",
-                            "price":2.5
-                        },
-                        {
-                            "name":"Cheesy",
-                            "price":2.5
-                        }
+                    "name": "Chicha",
+                    "subcategory": "Chicha",
+                    "items": [
+                        { "name": "Fakher", "price": 10.0 },
+                        { "name": "Adalya/BJR", "price": 12.0 },
+                        { "name": "Offre: Chicha + Thé à la Menthe", "price": 13.0 },
+                        { "name": "Jabbad Jetable", "price": 2.5 },
+                        { "name": "Supplement Glaçon", "price": 2.5 },
+                        { "name": "Assiette de Fruits", "price": 18.0 }
                     ]
                 }
-                
             ]
         }
     ]
