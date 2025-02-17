@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "Panini",
-                    "subcategory": "Burger/Panini",
+                    "subcategory": "Burger & Panini",
                     "items": [
                         { "name": "Thon Fromage", "price": 7.5 },
                         { "name": "Jambon Fromage", "price": 7.5 },
@@ -428,7 +428,7 @@
                     "name": "Le Tunisien",
                     "subcategory": "Le Tunisien",
                     "items": [
-                        { "description": "2 Cafés, 2 casse-croûte Hlou, eau 1L, 2 mleywi, ojja, 2 bissa, 2 œufs au choix, dattes farcies, confiture, miel", "price": null,"duoprice":19.5,"soloprice":38 }
+                        { "description": "2 Cafés, 2 casse-croûte Hlou, eau 1L, 2 mleywi, ojja, 2 bissa, 2 œufs au choix, dattes farcies, confiture, miel", "price": null,"duoprice":38,"soloprice":19.5 }
                     ]
                 }
                 ,
