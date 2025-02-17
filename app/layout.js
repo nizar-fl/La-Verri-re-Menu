@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${cormorant.variable} antialiased`}
       >
-        {children}
+        {children}<Analytics />
       </body>
     </html>
   );
